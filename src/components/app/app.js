@@ -1,7 +1,11 @@
 import React from 'react';
 
-const App = () => {
+
+import withBookstoreService from '../hoc/with-bookstore-service';
+
+const App = ({bookstoreService}) => {
+    console.log(bookstoreService.getBooks());
     return <div>App</div>
 };
 
-export default App;
+export default withBookstoreService()(App);
