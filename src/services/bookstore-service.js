@@ -2,9 +2,11 @@ export default class bookstoreService{
     getBooks(){
         return[
             {id:1, 
-            title: ' Harry Potter'},
+            title: ' Harry Potter',
+            author: 'Annaaallisa'},
             {id:2, 
-            title: ' Kolobok'},
+            title: ' Kolobok',
+            author: 'Annd'},
         ];
     }
 };
