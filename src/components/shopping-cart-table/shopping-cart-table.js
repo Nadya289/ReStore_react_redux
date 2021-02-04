@@ -7,27 +7,33 @@ const ShoppingCartTable = () =>{
             <h2>Your order</h2>
             <table className='table'>
                 <thead>
-                    <th>#</th>
-                    <th>Item</th>
-                    <th>Price</th>
-                    <th>Action</th>
+                    <tr>
+                        <th>#</th>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
                 </thead>
                 <tbody>
-                    <td>#</td>
-                    <td>Site Reliability Engineering</td>
-                    <td>2</td>
-                    <td>40$</td>
-                        <button className='btn btn-outline-danger'>
-                            <i className='fa fa-plus-circle'/>
-                        </button>
-                        <button className='btn btn-outline-success'>
-                            <i className='fa fa-plus-circle'/>
-                        </button>
-                        <button className='btn btn-outline-warning'>
-                            <i className='fa fa-plus-circle'/>
-                        </button>
+                    <tr>
+                        <td>#</td>
+                        <td>Site Reliability Engineering</td>
+                        <td>2</td>
+                        <td>40$</td>
+                    </tr>
                 </tbody>
-            </table>
+                    <button className='btn btn-outline-danger'>
+                            <i className='fa fa-plus-circle'/>
+                    </button>
+                    <button className='btn btn-outline-success'>
+                        <i className='fa fa-plus-circle'/>
+                    </button>
+                    <button className='btn btn-outline-warning'>
+                        <i className='fa fa-plus-circle'/>
+                    </button>
+                </table>
+                
+            
             <div className='total'>
                 Total: $201
             </div>
